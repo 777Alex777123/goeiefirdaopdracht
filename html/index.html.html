@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<title>Navbar Voorbeeld</title>
+<style>
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.active {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+
+<div class="navbar">
+ 
+
+</div>
+
+
+
+
+<script>
+
+  var navbarLinks = document.querySelectorAll('.navbar a');
+
+
+  navbarLinks.forEach(function(navbarLink) {
+    navbarLink.addEventListener('click', function(event) {
+   
+      event.preventDefault();
+
+      var targetId = navbarLink.getAttribute('href').substring(1);
+
+     
+      var targetElement = document.getElementById(targetId);
+
+      
+      targetElement.scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+
+<style>
+
+.FontLucidaConsole {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.cursief {
+  font-family: cursive;
+}
+
+.normaal {
+    
+    border-style: solid;
+}
+
+.randRood {
+  border:4px solid red;
+  border-radius: 5px;
+}
+
+.einde {
+
+float: right;
+width: 10%;
+
+
+
+}
+
+.posmidden {
+
+    position: absolute;
+    width: 50%;
+}
+
+
+
+
+
+</style>
+<body background="Achtergrond.png">
+<title>Navbar Voorbeeld</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  section {
+    padding: 50px;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#section1">Cijferlijst</a>
+
+</nav>
+
+<section id="section1">
+  <h2></h2>
+  <img src="Screenshot_20240313-231319.jpg" height="500">
+  <img src="Screenshot_20240313-231327.jpg" height="500">
+</section>
+
+
+    
+    
+    <h1 style="text-align: center;" class="normaal">Thuis Opdracht Software Developer</h1>
+
+    <h2 class="cursief">Inhoud</h2>
+    <ul>
+
+        <li>Iets over mijzelf en mijn ervaring met programmeren</li>
+       
+        <li>Voorbeelden van mijn ervaring met programmeren</li>
+
+        <li>Van welke software maak je gebruik om zelf programma’s, websites of apps te maken?</li>
+
+        <li>Waarom is Software Developer voor jou de goede opleiding? Welke eigenschappen heb
+            je, die ervoor kunnen zorgen, dat je een goede programmeur wordt.</li>
+
+            <li>Zoek uit welke programmeertalen gebruikt worden voor het maken van apps voor
+                tablets en smartphones. Welke zou je zelf gebruiken?</li>
+                
+    <li>Beschrijf welke programmeertalen nu het meest gebruikt worden voor het maken van
+        Windowsapplicaties. Welke zou je zelf gebruiken?</li>
+
+    <li>Wat voor werk zie jij jezelf later doen?</li>
+
+    <li>Had je in het VMBO een stage? Zo ja, welke en wat heb je daar van geleerd? Welke
+        invloed had dat op jouw keuze voor deze opleiding.</li>
+      </ul>
+
+
+     <h2 class="FontLucidaConsole">Iets over mijzelf</h2>
+<p> Mijn naam is Justin Rijsdijk en ik ben 16 jaar oud en ik wil heel graag de opleiding Software Developer volgen <br>
+en heb ik vanaf jongs af aan altijd al iets met computers willen doen.</p><br>
+Mijn ervaring met programmeren is dat ik al eerder gewerkt heb met CSS en ook HTML, Van HTML ken ik de basis al een beetje maar nog niet <br>
+Het geadvanceerde HTML code. Hetzelfde geld voor CSS waarvan ik de basis nog een beetje uit mijn hoofd weet de rest moet ik nog even opzoeken als opfrisser.<br>
+
+Met het maken van apps heb ik vrijwel nog geen ervaring en ben ik nog alleen maar bezig geweest met de websites, maar als ik deze opleiding zal volgen<br>
+Wil ik alles te weten komen over het bouwen van apps. </p>
+
+<img src="Visual studio code.png" class="randRood"></img>
+
+
+<h2>App die ik gebruik</h3>
+<p>Visual Studio Code is het programma dat ik gebruik om websites te bouwen en het coderen in HTML en CSS<br>
+    De eerste keer dat ik met deze app werkt was toen ik stage ging volgen bij mijn oom Martijn Hiemstra die zelf
+    ook websites maakt en mij daar les in gaf, Mijn oom gaf mij ook een Tip dat ik  <a href="https://www.w3schools.com/">De Website</a><br></p> 
+w3schools kom gebruiken om te blijven oefenen
+
+
+<img src="maritjn.jfif" class="einde">
+
+    <h2>Waarom software developer en mijn eigenschappen</h2>
+    <p>De reden waarom ik software developer heb gekozen ik vanaf jongs af aan altijd al leuk heb gevonden om met de computer te werken en ben ik daar ook handig in.<br></p>
+ Mijn oom heeft zelf ook een ICT bedrijf waar hij mij vanaf jongs af aan altijd over heeft verteld en wat hij allemaal doet <br>
+Hij vertelde mij altijd over hoe hij mensen les geeft in HTML,CSS,JAVASCRIPT en nog veel meer code taal en zelfs ook applicaties bouwen
+Bij de stage bij mijn oom heeft hij ook alles over het vak Webdeveloper verteld en hoe het is om bij bedrijfen te werken als webdeveloper wat mij fantastisch leek <br>
+waardoor ik de keuze heb gemaakt om ook software developer te worden!<br>
+
+Eigen schappen die goed bij mij zou passen is doorzettend, Bijvoorbeeld als ik iets graag wil of iets lukt niet blijf ik het altijd proberen en zoek in <br>
+Andere oplossingen. Ook past het eigenschap vriendelijk en sociaal goed bij mij, Ik ben altijd erg vriendelijk tegen iedereen en ben altijd erg sociaal, Ik heb nooit problemen <br>
+met het vinden van vrienden of iets dergelijks. Ook ben ik altijd kalm en ik denk dat deze eigenschappen goed bij mij zouden passen want als iets niet lukt blijf ik doorzetten <br>
+en blijf ik altijd kalm en natuurlijk is vriendelijk zijn en sociaal zijn altijd erg belangerijk.
+
+<h2>Welke programeer taal wordt gebruikt bij websites?</h2>
+<p>Programeer talen die worden gebruikt bij het maken van websites zijn het volgende: HTLM, Javascript en CSS.<br></p>
+Ik denk dat Python een programeer taal is een grote toekomst heeft omdat Python wordt gebruikt om AI te programmeren en AI kan alles gemakkelijk leren.<br>
+dus als er ooit een AI komt die alle programmeer talen kent en iedere programeur zijn baan zal overnemen dan kan je altijd zelf nog in Python een eigen AI of iets dergelijks bouwen.
+
+<h2>uit welke programmeertalen gebruikt worden voor het maken van apps voor tablets en smartphones.</h2>
+<p>De apps die ze gebruiken om apps te bouwen voor tablets en smartphones zijn het volgende: Javascript,PHP,Objective-C, C++, C# en React<br>
+De taal die ik zelf zou gebruiken is denk ik Javascript omdat je dat al kan als je websites kan programmeren.</p>
+<img src="html.jpg" height="250">
+
+<h2>Beschrijf welke programmeertalen nu het meest gebruikt worden voor het maken van Windowsapplicaties.</h2>
+
+<p>Wat ik heb kunnen vinden op het internet is dat Javascript-frameworks en dat C# ook veel wordt gebruikt om windowsapplicaties te maken en dat het ook mogelijk is om  <br>
+    Javascript-frameworks omtezetten in een app voor IOS of een Andriod dus wordt het ook gebruikt om apps te maken voor Andriod of een IOS
+</p>
+
+
+<h2>Wat voor werk ik mijzelf later zie doen</h2>
+<p>Later zie ik mijzelf graag als software developer natuurlijk en het liefst werk ik dan online vanuit het buitenland voor een nederlands bedrijf. <br>
+Mijn droom is dus dan om in Griekenland ergens vlakbij het strand een huisje te hebben en dat ik dan lekker online kan programmeren en werken voor een bedrijf<br>
+die in nederland zit. Ik zat er ook misschien over na te denken om het zelfde te doen als mijn oom en dat is dat ik dan mijzelf laat inhuren door andere<br>
+mensen of scholen waar ik dan les geef in HTML,CSS en javascript en het maken van apps. net zoals mijn oom wil ik dat dan graag online doen en zo les geven.</p>
+
+<h2>Mijn VMBO stage</h2>
+<p>Bij mijn VMBO heb ik twee keer twee weken stage moeten lopen die ik allebei keren bij mijn oom heb gedaan waar ik zoals ik al zei voor het eerst <br>
+heb gewerkt met het bouwen van websites met HTML,CSS en javascript. Ik heb allebei keren meer dan 70 uur stage gelopen omdat ik het zo leuk vondt en steeds meer wou leren.<br>
+zelf heeft mijn oom ook op de friese poort geleerd voor software developer en zal ik graag in de toekomst net zoals hem willen worden.</p>
+
+<h2>Welke werkzaamheden (bijvoorbeeld uit ervaring ...) zou jij wel/nooit willen doen?</h2>
+<p>Welke werkzaamheden ik graag uit ervaring niet zal willen doen is in de bouw, Ik werk momenteel bij Acces Catering in Eastermar vlakbij mijn huis <br>
+en ze waren vorig jaar bezig met het bouwen van een grote kas waar ik op zaterdag moest mee helpen. Ik vondt het werk zelf niet erg maar ik deed het niet met plezier <br>
+en waar het bij mij het meeste omdraait is dat je plezier hebt met wat je doet. Maar als het gaat over programmeren of iets met computers dan doe ik het heel graag en altijd met plezier</p>
+
+<h2>Heb je een bijbaantje? Wat is daar wel/niet leuk aan?</h2>
+<p> Zoals ik al zei werk ik nu bij Acces Caterin officieel als afwasser wat ik wel leukt vindt om te doen aangezien ik lekker rustig aan het werk kan<br>
+de werkzaamheden die ik daar doe is natuurlijk afwassen, de keuken schoonmaken, alles opruimen en vaak als er iets anders is bijvoorbeeld de foodtrucks uitladen dan doe ik dat ook<br>
+soms moet ik ook allemaal eten klaarzetten of in de foodtrucks doen zodat dat weer mee kan naar een evenement of een bruiloft. Wat ik er minder leuk aan vindt <br> 
+Is dat ik vaak laat in de avond moet werken van 17:00 tot soms wel 23:00 ik vindt zes uren werken niet erg maar ik heb het liever overdag dan in de avond.</p>
+
+<h2>Wat zeggen anderen over wat ze goed bij jou vinden passen (qua interesse enkwaliteiten).</h2>
+<p>Andere mensen zeggen dat ik Sociaal, enthousiast, luisterend, positief en betrouwbaar.
+    Ook vinden de zat iets met computers goed bij mij zou passenm. Sinds ik echt heel jong was wou ik dit al doen en misschien ook iets met game design <br>
+    daarom had ik altijd een boekje bij mij voor als ik Ideen had om websites te bouwen of iets voor een applicatie.
+</p>
+
+<img src="griekenkand.jpg" height="250"</img>
+
+<h2> Waar droom je van om in de toekomst te gaan doen? Waarin zou je willen uitblinken? </h2>
+Ik wil heel graag software developer doen en dan wil ik zoveel mogelijk programeer talen kunnen bemachtigen. al ben ik al klaar bij deze school<br>
+Wil ik na de tijd altijd nog nieuwe programmeer talen blijven oefenen en maar blijven door leren zodat ik zoveel mogelijk ken en dat ik daar in uitblink <br>
+ook lijkt het mij leuk om nog een andere taal te gaan leren wat waarschijnlijk zal gebeuren als ik ooit in griekenland ga werken als software developer.
+
+<h2>Waar was je trots op?</h2>
+Waar ik echt trots op ben is denk ik toen ik mijn aller eerste computer heb gekregen voor mijn verjaardag met een boek erbij genaamd<br>
+"Programmeren voor beginners" Ik heb toen gelijk dat boek gelezen maar toch vondt ik het toen destijds toch nog iets te makkelijk omdat je alleen maar balkjes moest slepen<br>
+net zoals bij het programma scratch waar je ook in kan programmeren voor beginners.
+<br>
+<br>
+<button type="button" onclick="alert('Gemaakt door Justin Rijsdijk')">Einde</button>
+      
+
+
+</body>
+</html>
